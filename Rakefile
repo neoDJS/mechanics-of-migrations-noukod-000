@@ -8,7 +8,7 @@ task :console do
 end
 
 namespace :db do
-  task :migration => :environment do
+  task :migrate => :environment do
     
   end
 end
