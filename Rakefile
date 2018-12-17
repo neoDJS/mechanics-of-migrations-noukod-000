@@ -6,3 +6,9 @@ task :console do
   ARGV.clear
   IRB.start
 end
+
+namespace :db do
+  task :migration => :environment do
+    
+  end
+end
